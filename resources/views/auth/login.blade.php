@@ -9,7 +9,8 @@
             {{csrf_field()}}
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control {{$errors->has('email')? 'is-invalid' :''}}" 
+                <input type="email" id="inputEmail" 
+                class="form-control {{$errors->has('email')? 'is-invalid' :''}}" 
                 name="email"
                 placeholder="Email address" required="required" autofocus="autofocus">
                 <label for="inputEmail">Email address</label>
@@ -20,7 +21,8 @@
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control {{$errors->has('password') ? 'is-invalid' : ''}}" 
+                <input type="password" id="inputPassword" 
+                class="form-control {{$errors->has('password') ? 'is-invalid' : ''}}" 
                 name="password"
                 placeholder="Password" required="required">
                 <label for="inputPassword">Password</label>
